@@ -23,6 +23,8 @@ letters_to_numbers = {
     
 }
 
+
+#computer create 5 ships
 def create_ships():
     for ship in range(5):
         ship_row, ship_column = randint(0,7), randint(0,7)
@@ -31,14 +33,18 @@ def create_ships():
         board[ship_row][ship_column] = "X"
 
 def get_ship_location():
-    row = input("").upper()
+    row = input("Enter the row of the ship: ").upper()
     while row not in "12345678":
-        row = input("").upper()
-    column = input("").upper()
+        print('Not an appropriate choice, please select a valid row')
+        row = input("Enter the row of the ship: ").upper()
+    column = input("Enter the column of the ship: ").upper()
     while column not in "ABCDEFGH":
+        print('Not an appropriate choice, please select a valid column')
         column = input("Enter the column of the ship: ").upper()
+    return int(row) - 1, letters_to_numbers[column]
 
 
+#checks if all ships are hit
 def count_hit_ships():
     pass
 
