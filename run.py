@@ -45,9 +45,31 @@ def get_ship_location():
 
 
 #checks if all ships are hit
-def count_hit_ships():
-    pass
+def count_hit_ships(board):
+    count = 0
+    for row in board:
+        for column in row:
+            if column == "X":
+                count += 1
+    return count
 
-create_ships()
+
+if __name__ == "__main__":
+create_ships(HIDDEN_BOARD)
 turns = 10
 while turns > 0:
+    print('Guess a battleship location')
+    print_board(GUESS_BOARD)
+    row, column = get_ship_location()
+    if GUESS_BOARD[row][column] == "-":
+        print("You guessed that one already.")
+    else:
+        print("MISS!")
+        GUESS_BOARD[row][column] = "-"   
+        turns -= 1     
+    if count_hit_ships(GUESS_BOARD) == 5:
+        print("You win!")
+        break
+        print("You have " + str(turns) + " turns left")
+    if turns == 0:
+        print("You ran out of turns")
