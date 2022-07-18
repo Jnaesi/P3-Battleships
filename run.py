@@ -31,7 +31,13 @@ def create_ships():
         board[ship_row][ship_column] = "X"
 
 def get_ship_location():
-    pass
+    row = input("").upper()
+    while row not in "12345678":
+        row = input("").upper()
+    column = input("").upper()
+    while column not in "ABCDEFGH":
+        column = input("Enter the column of the ship: ").upper()
+
 
 def count_hit_ships():
     pass
