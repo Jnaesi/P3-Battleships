@@ -1,4 +1,5 @@
 from random import randint
+from pprint import pprint
 
 #Board for holding ship locations
 HIDDEN_BOARD = [[" "] * 8 for x in range(8)]
@@ -51,8 +52,8 @@ def count_hit_ships(board):
                 count += 1
     return count
 
+if __name__ == "__main__":
     create_ships(HIDDEN_BOARD)
-    print_board(HIDDEN_BOARD)
     turns = 10
     while turns > 0:
         print('Guess a battleship location')
