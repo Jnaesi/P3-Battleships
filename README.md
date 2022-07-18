@@ -1,31 +1,83 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#  Battleships Game
+## Introduction
+Space Cats Memory Game is a web based game built in JavaScript, HTML and CSS.  It is targetted towards users who would like a short fun game to play with a very simple setup.
 
-Welcome Jnaesi,
+<img src="" alt="preview" width="1960" height="600"/>
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+[View the live website on Heroku]()
+Please note: To open any links in this document in a new browser tab, please press CTRL + Click.
 
-## Reminders
+## Table of Contents
+* [Strategy Plane](#Strategy-Plane)
+* [The Skeleton Scope](#The-Skeleton-Scope)
+    * [Wireframes](#Wireframe)
+* [Features](#features)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Media](#Media)
+* [Acknowledgements](#Acknowledgements)
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+### Strategy Plane
+* Battleships Game is intended to be a fun game for individual users to play for short periods of time. The graphical elements and overall design of games immediately provide the user with a visual indicator of what the site is about and set the tone of the interaction.
 
-## Creating the Heroku app
+#### Site Goals
+* To provide users with a fun and simple game to play
+* To ensure the game is fully accessible on desktop and touch enabled devices
+* To ensure the game is fully compliant with keyboard commands and screen readers
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+### The Skeleton Scope
+#### Wireframe mockups
+
+#### Wireframe
+<img src="" alt="drawing" width="1960" height="600"/>
+
+
+# Features
+* Common Features
+The site is designed with a columns and row layout in python
+
+#### Main
+<img src="" alt="" width="800" height="400"/>
+
+#### Correct Answers 
+<img src="" alt="" width="800" height="400"/>
+
+#### Wrong Answers
+<img src="assets/images/" alt="" width="800" height="400"/>
+
+## Testing
+#### Validator Testing
+
+  <img src=" alt="Refresh" width="500" height="200"/>
+
+#### Notable Bugs
+
+## Deployment
+
+* The site was deployed to Heroku pages. The steps to deploy are as follows:
+* When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
 
 1. `heroku/python`
 2. `heroku/nodejs`
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+* You must then create a _Config Var_ called `PORT`. Set this to `8000`
+* If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+* Connect your GitHub repository and deploy as normal.
+  
+The live link can be found here - [Battleships Live Site](https://)
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## Credits
 
-Connect your GitHub repository and deploy as normal.
+## Python
+ 
+### Reference Material
+The sites below where used as reference point for Python.
+* https://stackoverflow.com/
+* https://www.w3schools.com/
 
-## Constraints
+### Wireframe
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+### Acknowledgements
+I'd like to thank the students and community on slack that helped me through Javascript and the incredible learning materials on code institute.
 
------
-Happy coding!
