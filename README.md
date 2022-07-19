@@ -1,6 +1,9 @@
 #  Battleships Game
 ## Introduction
 Battleships is a back-end based game built in Python. It is targetted towards users who would like a short fun game to play with a very simple setup.
+#### Preview
+
+<img src="/images/game.jpg" alt="" width="800" height="400"/>
 
 [View the live website on Heroku](https://battleships-pproject3.herokuapp.com/)
 Please note: To open any links in this document in a new browser tab, please press CTRL + Click.
@@ -19,7 +22,7 @@ Please note: To open any links in this document in a new browser tab, please pre
 1. Single player mode. 
   - Computer randomly places 5 ships, player has 10 guesses
 
-Legend:
+2. Commands that you can use:
   " " available to guess
   X is hit ship
   "-" is miss
@@ -30,10 +33,6 @@ Legend:
 # Features
 * Common Features
 The game is designed with a columns and row layout in python.
-
-#### Main
-<img src="/images/game.jpg" alt="" width="800" height="400"/>
-
 #### Correct Answers 
 <img src="/images/hit.jpg" alt="" width="800" height="400"/>
 
@@ -46,7 +45,7 @@ The game is designed with a columns and row layout in python.
 Tested the code in pep8online.com with no major issues
 #### Notable Bugs
 
-No bugs noticed so far
+No bugs noticed
 ## Deployment
 
 * The site was deployed to Heroku pages. The steps to deploy are as follows:
