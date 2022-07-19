@@ -13,11 +13,10 @@ Please note: To open any links in this document in a new browser tab, please pre
 * [Deployment](#Deployment)
 
 ### Strategy Plane
-* Battleships Game is intended to be a fun game for individual users to play for short periods of time. The graphical elements and overall design of games immediately provide the user with a visual indicator of what the site is about and set the tone of the interaction.
+* Battleships Game is intended to be a fun game for individual users to play for short periods of time. The simplicity of the game immediately provide the user with a visual indicator of what the game is about and set the tone of the interaction immediately.
 
 ### How To Play
-Game types 
-1. Single_player.py 
+1. Single player mode. 
   - Computer randomly places 5 ships, player has 10 guesses
 
 Legend:
@@ -39,7 +38,7 @@ The game is designed with a columns and row layout in python.
 <img src="/images/hit.jpg" alt="" width="800" height="400"/>
 
 #### Wrong Answers
-<img src="images/miss.jpg" alt="" width="800" height="400"/>
+<img src="/images/miss.jpg" alt="" width="800" height="400"/>
 
 ## Testing
 #### Validator Testing
