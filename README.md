@@ -1,10 +1,10 @@
 #  Battleships Game
 ## Introduction
-Space Cats Memory Game is a web based game built in JavaScript, HTML and CSS.  It is targetted towards users who would like a short fun game to play with a very simple setup.
+Battleships is a back-end based game built in Python. It is targetted towards users who would like a short fun game to play with a very simple setup.
 
 <img src="" alt="preview" width="1960" height="600"/>
 
-[View the live website on Heroku]()
+[View the live website on Heroku](https://battleships-pproject3.herokuapp.com/)
 Please note: To open any links in this document in a new browser tab, please press CTRL + Click.
 
 ## Table of Contents
@@ -38,13 +38,13 @@ Please note: To open any links in this document in a new browser tab, please pre
 The site is designed with a columns and row layout in python
 
 #### Main
-<img src="" alt="" width="800" height="400"/>
+<img src="/images/game.jpg" alt="" width="800" height="400"/>
 
 #### Correct Answers 
-<img src="" alt="" width="800" height="400"/>
+<img src="/images/hit.jpg" alt="" width="800" height="400"/>
 
 #### Wrong Answers
-<img src="assets/images/" alt="" width="800" height="400"/>
+<img src="images/miss.jpg" alt="" width="800" height="400"/>
 
 ## Testing
 #### Validator Testing
@@ -65,7 +65,7 @@ The site is designed with a columns and row layout in python
 * If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 * Connect your GitHub repository and deploy as normal.
   
-The live link can be found here - [Battleships Live Site](https://)
+The live link can be found here - [Battleships Live Site](https://battleships-pproject3.herokuapp.com/)
 
 ## Credits
 
